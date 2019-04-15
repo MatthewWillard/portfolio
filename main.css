@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    background-color: darkgrey;
+  }
+  
+  header {
+    padding: 250px 0;
+    background-color: black;
+    color: rgb(236, 236, 255);
+  }
+  
