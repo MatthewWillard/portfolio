@@ -26,14 +26,14 @@ function projects() {
     <section id="projectsPage" role="main">
     <h2>Game of Thrones Quiz</h2>
     <a href="https://matthewwillard.github.io/quiz_app/" target="_blank">
-    <img id="thrones" src="images/quizapp.jpg" width="500" height="500" alt="preview of Game of Thrones Quiz"> 
+    <img id="thrones" src="images/quizapp.png" width="500" height="500" alt="preview of Game of Thrones Quiz"> 
     </a>
     <p class="projectsAbout">My Game of Thrones quiz is a short ten question app.  It quizzes you on house sigils and words.
     After every question accurate feedback is received and at the end of the quiz the user receives an 
     out of 10 score.</p>
     <a href="https://github.com/MatthewWillard/quiz_app" target="_blank">Repository</a> 
    <h2>Technology Used</h2>
-    <img class="techLogos" src="images/html5.png" width="60" height="60" alt="black and white HTML5 logo"> <img class="techLogos" src="images/css3.png" width="60" height="60" alt="black and white CSS3 logo"> <img class="techLogos" src="images/javascript.png" width="60" height="60" alt="black and white Javascript logo"> <img class="techLogos" src="images/jquery.png" width="60" height="60" alt="black and white jquery logo">
+    <img class="techLogos" src="images/html5.png" width="60" height="60" alt="black and white HTML5 logo"> <img class="techLogos" src="images/css3.png" width="60" height="60" alt="black and white CSS3 logo"> <img class="techLogos" src="images/javascript.jpg" width="60" height="60" alt="black and white Javascript logo"> <img class="techLogos" src="images/jquery.jpg" width="60" height="60" alt="black and white jquery logo">
   </section>
   `
   ;
