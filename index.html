@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HTML wireframe</title>
+    <title>Matthew Willard Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Matthew Willard's professional portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 <body>
-    <nav role="navigation">Fixed navbar/Put links to intro/projects/contact info</nav>
+    <nav class="navbar" role="navigation">
+        <button id="homeButton">Home</button>
+        <button id="aboutMeButton">About Me</button>
+        <button id="projectsButton">Projects</button>
+        <button id="contactInfoButton">Contact Info</button>
+    </nav>
     <main role="main">
         <header role="banner">
-            <h1>Main Content</h1>
-            <h2>Loads when link clicked on navbar</h2>
+            <div id="container">
+                <section id="start-page">
+                    <h1>Matthew Willard</h1>
+                    <img id="hero" src="images/MWillardProfile.jpg" width="450" height="600" alt="Matthew Willard profile picture">
+                </section>
+            </div>
         </header>
     </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <footer role = "contentinfo">
+        <h6>©Matthew Willard 2019</h6>
+    </footer>
 </body>
 </html>

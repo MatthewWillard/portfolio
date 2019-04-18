@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
-  }
+    font-family: 'Source Sans Pro', sans-serif;
+}
   
   body {
     font-size: 20px;
     color: black;
     text-align: center;
+     width: auto; 
   }
   
   nav {
@@ -14,12 +16,154 @@
     left: 0;
     right: 0;
     padding: 20px 0;
-    background-color: darkgrey;
+    background-color: rgb(109, 109, 109);
   }
   
-  header {
-    padding: 250px 0;
+  #container {
+    padding: 100px 0;
+    background-color: white;
+    color: black;
+  }
+
+  button {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
+  button:hover {
     background-color: black;
-    color: rgb(236, 236, 255);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
   
+  button:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+
+
+  #projectsPage {
+    display: block;
+    max-width: 50%;
+    margin: auto;
+    }
+
+  p.projectsAbout {
+    max-width: 92%;
+    margin: auto;
+  }
+
+  #aboutMePage {
+    max-width: 38%;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  div {
+  padding: 20px;
+    }
+
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+  }
+
+  button {
+    font-size: 10px;
+    border-radius: 8px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contactLogos {
+    width: 20%;
+  }
+
+  .techLogos {
+    width: 20%;
+  }
+
+  #thrones {
+    height: auto;
+    width: 100%;
+
+  }
+
+  nav {
+    background: rgb(109, 109, 109);
+    padding: 10px;
+  }
+
+  #projectsPage {
+    max-width: 80%;
+  }
+
+  #aboutMePage {
+    max-width: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+  }
+
+    button {
+    font-size: 14px;
+  }  
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contactLogos {
+    width: 20%;
+  }
+
+  .techLogos {
+    width: 20%;
+  }
+
+  #thrones {
+    height: auto;
+    width: 100%;
+
+  }
+
+  nav {
+    background: rgb(109, 109, 109);
+    padding: 10px;
+  }
+
+  #projectsPage {
+    max-width: 80%;
+  }
+
+  #aboutMePage {
+    max-width: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  #projectsPage {
+    max-width: 80%;
+  }
+}
