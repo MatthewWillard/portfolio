@@ -25,7 +25,7 @@ function projects() {
   return `
     <section id="projectsPage" role="main">
     <h2>Game of Thrones Quiz</h2>
-    <img id="thrones" src="images/quizapp.png" width="500" height="500" alt="preview of Game of Thrones Quiz"> 
+    <img id="thrones" src="images/quiz.png" width="500" height="500" alt="preview of Game of Thrones Quiz"> 
     <p class="projectsAbout">My Game of Thrones quiz is a short ten question app.  It quizzes you on house sigils and words.
     After every question accurate feedback is received and at the end of the quiz the user receives an 
     out of 10 score.</p>
@@ -37,7 +37,7 @@ function projects() {
     <span><img class="techLogos" src="images/html5.png" width="60" height="60" alt="black and white HTML5 logo"></span>
     <span><img class="techLogos" src="images/css3.png" width="60" height="60" alt="black and white CSS3 logo"></span>
     <span><img class="techLogos" src="images/js.png" width="60" height="60" alt="black and white Javascript logo"></span>
-    <span><img class="techLogos" src="images/jquery.png" width="60" height="60" alt="black and white jquery logo"></span>
+    <span><img class="techLogos" src="images/jq.png" width="60" height="60" alt="black and white jquery logo"></span>
   </section>
   `
   ;
@@ -56,20 +56,17 @@ function showProjectsPage() {
 function contactInfo() {
   return `
     <section id="contactInfoPage" role="main">
-    <h2>Contact Info</h2> 
-    <div>
-    <img class="contactLogos" src="images/github.png" width="60" height="60" alt="Github logo">
-    <a href="https://github.com/MatthewWillard" target="_blank">GitHub</a>
-    </div>
-    <div>
-    <img class="contactLogos" src="images/linkedin.png" width="60" height="60" alt="linkedin logo">
-    <a href="https://www.linkedin.com/in/matthew-willard-122a3538/" target="_blank">LinkedIn</a>
-    </div>
-    <div>
-    <img class="contactLogos" src="images/gmail.png" width="60" height="60" alt="gmail logo">
-    <a href="mailto:mwillard85@gmail.com" target="_blank">Gmail</a>
-    </div>
-  </section>
+      <h2>Contact Info</h2> 
+        <div>
+          <a href="https://github.com/MatthewWillard" target="_blank"><img class="contactLogos" src="images/github.png" width="60" height="60" alt="Github logo"></a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/matthew-willard-122a3538/" target="_blank"><img class="contactLogos" src="images/linkedin.png" width="60" height="60" alt="linkedin logo"></a>
+        </div>
+        <div>
+          <a href="mailto:mwillard85@gmail.com" target="_blank"><img class="contactLogos" src="images/gmail.png" width="60" height="60" alt="gmail logo"></a>
+        </div>
+    </section>
   `
   ;
 }
