@@ -24,6 +24,21 @@ function showAboutMePage() {
 function projects() {
   return `
     <section id="projectsPage" role="main">
+    <h2>Event Search App</h2>
+    <img id="thrones" src="images/apiapp.png" width="500" height="500" alt="preview of Events App"> 
+    <p class="projectsAbout">My Event Search app is a basic API app that shows you local sporting and musical events in a searched location.
+      The user inputs their location and the most popular events are returned</p>
+    <div>
+    <a href="https://matthewwillard.github.io/eventSearch/index.html" target="_blank">Link</a>
+    </div>
+    <a href="https://github.com/MatthewWillard/eventSearch" target="_blank">Repository</a> 
+   <h2>Technology Used</h2>
+    <span><img class="techLogos" src="images/html5.png" width="60" height="60" alt="black and white HTML5 logo"></span>
+    <span><img class="techLogos" src="images/css3.png" width="60" height="60" alt="black and white CSS3 logo"></span>
+    <span><img class="techLogos" src="images/js.png" width="60" height="60" alt="black and white Javascript logo"></span>
+    <span><img class="techLogos" src="images/jq.png" width="60" height="60" alt="black and white jquery logo"></span>
+  </section>
+  <section id="projectsPage" role="main">
     <h2>Game of Thrones Quiz</h2>
     <img id="thrones" src="images/quiz.png" width="500" height="500" alt="preview of Game of Thrones Quiz"> 
     <p class="projectsAbout">My Game of Thrones quiz is a short ten question app.  It quizzes you on house sigils and words.
