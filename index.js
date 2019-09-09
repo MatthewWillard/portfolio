@@ -3,7 +3,7 @@ function aboutMe() {
     <section id="aboutMePage" role="main">
     <h2>Matthew Willard</h2> 
     <p>Hi, I’m Matthew. I’m a current web development student based in the Salt Lake City, Utah area. I love sports, movies, music, and all things tech. I’m currently 
-    trying to expand my knowledge of HTML, CSS, Javascript, and Jquery with many more languages to come. I spent over five years of my life managing the cleanliness of 
+    trying to expand my knowledge of HTML, CSS, Javascript, Jquery, React, Express, Node.js, and PostgreSQL. I spent over five years of my life managing the cleanliness of 
     a recreation center so I’m sort of a neat freak. I also love woodworking with dreams of making a rocking chair and canoe one day.</p>
   </section>
   `
@@ -24,8 +24,25 @@ function showAboutMePage() {
 function projects() {
   return `
     <section id="projectsPage" role="main">
-    <h2>Event Search App</h2>
-    <img id="thrones" src="images/apiapp.png" width="500" height="500" alt="preview of Events App"> 
+  <h2>Sports News App</h2>    
+  <img id="Sports" src="images/nflNews.png" width="500" height="500" alt="preview of sports App"> 
+  <p class="projectsAbout">A sports news app that gives you all the latest NFL, NHL, and news from ESPN. Login required, create account or use Username: TestName -  Password: Password0!  Built with HTML, CSS, React, Node.js, and Express.js. 
+  </p>
+  <div>
+  <a href="https://all-for-one-sports.mwillard.now.sh" target="_blank">Link</a>
+  </div>
+  <a href="https://github.com/MatthewWillard/all-for-one-sports" target="_blank">Repository</a> 
+ <h2>Technology Used</h2>
+  <span><img class="techLogos" src="images/html5.png" width="60" height="60" alt="black and white HTML5 logo"></span>
+  <span><img class="techLogos" src="images/css3.png" width="60" height="60" alt="black and white CSS3 logo"></span>
+  <span><img class="techLogos" src="images/js.png" width="60" height="60" alt="black and white Javascript logo"></span>
+  <span><img class="techLogos" src="images/react.png" width="60" height="60" alt="black and white react logo"></span>
+  <span><img class="techLogos" src="images/node.png" width="60" height="60" alt="black and white node logo"></span>
+  <span><img class="techLogos" src="images/express.png" width="60" height="60" alt="black and white express logo"></span>
+    </section>
+    <section id="projectsPage" role="main">
+    <h2>Event Search App</h2>    
+    <img id="event" src="images/apiapp.png" width="500" height="500" alt="preview of Events App"> 
     <p class="projectsAbout">My Event Search app is a basic API app that shows you local sporting and musical events in a searched location.
       The user inputs their location and the most popular events are returned</p>
     <div>
