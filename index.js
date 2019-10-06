@@ -25,7 +25,7 @@ function projects() {
   return `
   <section id="projectsPage" role="main">
   <h2>Training Tracker App</h2>    
-  <img id="training" src="images/List.png" width="500" height="500" alt="preview of sports App"> 
+  <img id="training" src="images/list.png" width="500" height="500" alt="preview of sports App"> 
   <p class="projectsAbout">An app for managers to track the trainings of their employees. Login required, create account or use Username: Demo -  Password: Password0!  Built with HTML, CSS, React, Node.js, PostgreSQL, and Express.js. 
   </p>
   <div>
