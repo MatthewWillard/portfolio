@@ -32,7 +32,7 @@ function projects() {
   <a href="https://trainingtracker.mwillard.now.sh/" target="_blank">Link</a>
   </div>
   <a href="https://github.com/MatthewWillard/training-tracker" target="_blank">Repository</a> 
- <h2>Technology Used</h2>
+ <h3>Technology Used</h3>
   <span><img class="techLogos" src="images/html5.png" width="60" height="60" alt="black and white HTML5 logo"></span>
   <span><img class="techLogos" src="images/css3.png" width="60" height="60" alt="black and white CSS3 logo"></span>
   <span><img class="techLogos" src="images/js.png" width="60" height="60" alt="black and white Javascript logo"></span>
@@ -50,7 +50,7 @@ function projects() {
   <a href="https://all-for-one-sports.mwillard.now.sh" target="_blank">Link</a>
   </div>
   <a href="https://github.com/MatthewWillard/all-for-one-sports" target="_blank">Repository</a> 
- <h2>Technology Used</h2>
+ <h3>Technology Used</h3>
   <span><img class="techLogos" src="images/html5.png" width="60" height="60" alt="black and white HTML5 logo"></span>
   <span><img class="techLogos" src="images/css3.png" width="60" height="60" alt="black and white CSS3 logo"></span>
   <span><img class="techLogos" src="images/js.png" width="60" height="60" alt="black and white Javascript logo"></span>
@@ -68,7 +68,7 @@ function projects() {
     <a href="https://matthewwillard.github.io/eventSearch/index.html" target="_blank">Link</a>
     </div>
     <a href="https://github.com/MatthewWillard/eventSearch" target="_blank">Repository</a> 
-   <h2>Technology Used</h2>
+   <h3>Technology Used</h3>
     <span><img class="techLogos" src="images/html5.png" width="60" height="60" alt="black and white HTML5 logo"></span>
     <span><img class="techLogos" src="images/css3.png" width="60" height="60" alt="black and white CSS3 logo"></span>
     <span><img class="techLogos" src="images/js.png" width="60" height="60" alt="black and white Javascript logo"></span>
@@ -84,13 +84,14 @@ function projects() {
     <a href="https://matthewwillard.github.io/quiz_app/" target="_blank">Link</a>
     </div>
     <a href="https://github.com/MatthewWillard/quiz_app" target="_blank">Repository</a> 
-   <h2>Technology Used</h2>
+   <h3>Technology Used</h3>
     <span><img class="techLogos" src="images/html5.png" width="60" height="60" alt="black and white HTML5 logo"></span>
     <span><img class="techLogos" src="images/css3.png" width="60" height="60" alt="black and white CSS3 logo"></span>
     <span><img class="techLogos" src="images/js.png" width="60" height="60" alt="black and white Javascript logo"></span>
     <span><img class="techLogos" src="images/jq.png" width="60" height="60" alt="black and white jquery logo"></span>
   </section>
   `
+  
   ;
 }
 
