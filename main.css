@@ -112,6 +112,16 @@
 
 
 @media only screen and (max-width: 320px) {
+
+  #hero {
+    width: 80%;
+  }
+  
+  #container {
+    padding: 20px 0;
+    color: white;
+  }
+
   body {
     font-size: 15px;
     color: black;
