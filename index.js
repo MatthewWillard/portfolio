@@ -26,7 +26,7 @@ function projects() {
   return `
   <section id="projectsPage" role="main">
   <h2>Training Tracker App</h2>    
-  <img id="training" src="images/trainingtracker.png" width="800" height="500" alt="preview of training tracker App"> 
+  <img id="training" src="images/trainingtracker.png" width="750" height="500" alt="preview of training tracker App"> 
   <p class="projectsAbout">An app for managers to track the trainings of their employees. Login required, create account or use Username: Demo -  Password: Password0!  Built with HTML, CSS, React, Node.js, PostgreSQL, and Express.js. 
   </p>
   <div>
@@ -44,7 +44,7 @@ function projects() {
     </section>
     <section id="projectsPage" role="main">
   <h2>Sports News App</h2>    
-  <img id="Sports" src="images/nflNews.png" width="800" height="500" alt="preview of sports App"> 
+  <img id="Sports" src="images/nflNews.png" width="750" height="500" alt="preview of sports App"> 
   <p class="projectsAbout">A sports news app that gives you all the latest NFL, NHL, and news from ESPN. Login required, create account or use Username: TestName -  Password: Password0!  Built with HTML, CSS, React, Node.js, PostgreSQL, and Express.js. 
   </p>
   <div>
@@ -62,7 +62,7 @@ function projects() {
     </section>
     <section id="projectsPage" role="main">
     <h2>Event Search App</h2>    
-    <img id="event" src="images/apiapp.png" width="800" height="500" alt="preview of Events App"> 
+    <img id="event" src="images/apiapp.png" width="750" height="600" alt="preview of Events App"> 
     <p class="projectsAbout">My Event Search app is a basic API app that shows you local sporting and musical events in a searched location.
       The user inputs their location and the most popular events are returned</p>
     <div>
